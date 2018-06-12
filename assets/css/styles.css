@@ -28,7 +28,6 @@
     margin-top: 30px;
 }
 
-
 /*RESPONSIVE IMAGES*/
 
 header .header-img {
@@ -37,9 +36,9 @@ header .header-img {
     overflow: hidden;
 }
 
-.featured-work .featured-img {
-    width: 100%;
-    max-width: 480px;
+.featured-work{
+    max-width: 100%;
+
 }
 
 .responsive-img {
@@ -123,14 +122,11 @@ the header text will align to the right, and content will be spaced out evenly.*
         margin-bottom: 0;
     }
     .featured-item {
+        width: calc(33.3% - 40px);
         margin: 20px 20px 20px 0;
     }
     .featured-item:last-child {
         margin-right: 0;
-    }
-    .featured-work .featured-img {
-        max-height: 200px;
-        max-width: 300px;
     }
 }
 
