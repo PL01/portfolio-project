@@ -7,10 +7,6 @@
     padding: 0;
 }
 
-body {
-    overflow-x: hidden;
-}
-
 .header {
     text-align: center;
     margin-bottom: 30px;
@@ -89,6 +85,7 @@ header .header-img {
 @media screen and (max-width: 719px) {
     .header {
         height: 80px;
+        padding: 10px;
     }
     .header .header-text {
         text-align: right;
