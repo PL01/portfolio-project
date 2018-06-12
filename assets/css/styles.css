@@ -122,7 +122,7 @@ the header text will align to the right, and content will be spaced out evenly.*
     }
     
     .header,
-    .featured-inner {
+    .featured-inner, div {
         display: flex;
     }
     
