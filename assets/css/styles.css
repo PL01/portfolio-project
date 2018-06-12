@@ -70,9 +70,11 @@ header .header-img {
     .text-header {
         font-size: 6vw;
     }
+    
     .text-item {
         font-size: 4vw;
     }
+    
     .featured-img {
         width: 100%;
     }
@@ -85,12 +87,15 @@ header .header-img {
     .header {
         height: 80px;
     }
+    
     .header .header-text {
         text-align: right;
     }
+    
     .header .header-logo {
         float: left;
     }
+    
     .header .header-img {
         height: 60px;
         width: 60px;
@@ -108,23 +113,28 @@ the header text will align to the right, and content will be spaced out evenly.*
         text-align: left;
         margin: 0 auto 30px;
     }
+    
     .header-text {
         text-align: right;
     }
+    
     .header,
     .featured-inner {
         display: flex;
     }
+    
     .featured-inner {
         margin-top: 30px;
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 0;
     }
+    
     .featured-item {
         width: calc(33.3% - 40px);
         margin: 20px 20px 20px 0;
     }
+    
     .featured-item:last-child {
         margin-right: 0;
     }
@@ -137,6 +147,7 @@ the header text will align to the right, and content will be spaced out evenly.*
     .text-header {
         font-size: 4vw;
     }
+    
     .text-item {
         font-size: 2vw;
     }
@@ -151,6 +162,7 @@ the header text will align to the right, and content will be spaced out evenly.*
         margin-left: auto;
         margin-right: auto;
     }
+    
     .hero-img{
         max-height: 400px;
         overflow: hidden;
@@ -161,6 +173,7 @@ the header text will align to the right, and content will be spaced out evenly.*
     .text-header {
         font-size: 3vw;
     }
+    
     .text-item {
         font-size: 1vw;
     }
