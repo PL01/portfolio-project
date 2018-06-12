@@ -85,7 +85,6 @@ header .header-img {
 @media screen and (max-width: 719px) {
     .header {
         height: 80px;
-        padding: 10px;
     }
     .header .header-text {
         text-align: right;
