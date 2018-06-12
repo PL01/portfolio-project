@@ -7,9 +7,11 @@
     padding: 0;
 }
 
-body{
+
+body {
     overflow-x: hidden;
 }
+
 
 .header {
     text-align: center;
@@ -19,14 +21,17 @@ body{
     border-bottom-width: 4px;
 }
 
+
 .content-header,
 .featured-item {
     text-align: center;
 }
 
+
 .featured-item {
     margin: 20px 0;
 }
+
 
 .featured-work {
     margin-top: 30px;
@@ -34,6 +39,7 @@ body{
 
 
 /*RESPONSIVE IMAGES*/
+
 
 header .header-img {
     width: 100%;
@@ -46,6 +52,7 @@ header .header-img {
     max-width: 480px;
 }
 
+
 .responsive-img {
     height: auto;
     max-width: 100%;
@@ -53,6 +60,7 @@ header .header-img {
 
 
 /*GENERAL SIZE OF HEADERS AND TEXT*/
+
 
 .text-item {
     font-size: 5vw;
@@ -65,19 +73,25 @@ header .header-img {
 
 /*Minor breaking point that is fit for mobile screens*/
 
+
 @media screen and (min-width: 450px) {
     .header-text {
         text-align: right;
     }
 }
 
+
 @media screen and (min-width: 480px) {
     .text-header {
         font-size: 6vw;
     }
+
+
     .text-item {
         font-size: 4vw;
     }
+
+
     .featured-img {
         width: 100%;
     }
@@ -86,17 +100,24 @@ header .header-img {
 
 /*Makes sure that the logo and text are side by side and not on top of each other.*/
 
+
 @media screen and (max-width: 719px) {
     .header {
         height: 80px;
         padding: 10px;
     }
+
+
     .header .header-text {
         text-align: right;
     }
+
+
     .header .header-logo {
         float: left;
     }
+
+
     .header .header-img {
         height: 60px;
         width: 60px;
@@ -108,31 +129,44 @@ header .header-img {
 the featured work section and all of its content will now be side by side instead of on top of each other like in mobile, 
 the header text will align to the right, and content will be spaced out evenly.*/
 
+
 @media screen and (min-width: 720px) {
     .header {
         justify-content: space-between;
         text-align: left;
         margin: 0 auto 30px;
     }
+
+
     .header-text {
         text-align: right;
     }
+
+
     .header,
     .featured-inner {
         display: flex;
     }
+
+
     .featured-inner {
         margin-top: 30px;
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 0;
     }
+
+
     .featured-item {
         margin: 20px 20px 20px 0;
     }
+
+
     .featured-item:last-child {
         margin-right: 0;
     }
+
+
     .featured-work .featured-img {
         max-height: 200px;
         max-width: 300px;
@@ -142,10 +176,13 @@ the header text will align to the right, and content will be spaced out evenly.*
 
 /*AT 750PX AND 1440PX the font-sizes for the headers and a specific piece of text change sizes relative to the viewport's width by 1%*/
 
+
 @media screen and (min-width: 750px) {
     .text-header {
         font-size: 4vw;
     }
+
+
     .text-item {
         font-size: 2vw;
     }
@@ -153,6 +190,7 @@ the header text will align to the right, and content will be spaced out evenly.*
 
 
 /*960PX IS THE POINT WHERE THE PAGE IS SET AT AN EASY TO SEE AND INTERACTIVE POSITION ON A LARGE SCREEN*/
+
 
 @media screen and (min-width: 960px) {
     .header,
@@ -164,10 +202,13 @@ the header text will align to the right, and content will be spaced out evenly.*
     }
 }
 
+
 @media screen and (min-width: 1440px) {
     .text-header {
         font-size: 3vw;
     }
+
+
     .text-item {
         font-size: 1vw;
     }
