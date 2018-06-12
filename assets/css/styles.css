@@ -5,7 +5,6 @@
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
 body {
@@ -79,6 +78,9 @@ header .header-img {
     .text-item {
         font-size: 4vw;
     }
+    .featured-img {
+        width: 100%;
+    }
 }
 
 
@@ -86,7 +88,7 @@ header .header-img {
 
 @media screen and (max-width: 719px) {
     .header {
-        height: 100px;
+        height: 80px;
     }
     .header .header-text {
         text-align: right;
