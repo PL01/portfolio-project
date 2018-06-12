@@ -142,19 +142,6 @@ the header text will align to the right, and content will be spaced out evenly.*
     }
 }
 
-
-/*960PX IS THE POINT WHERE THE PAGE IS SET AT AN EASY TO SEE AND INTERACTIVE POSITION ON A LARGE SCREEN*/
-
-@media screen and (min-width: 960px) {
-    .header,
-    main,
-    .content {
-        width: 960px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
 @media screen and (min-width: 1440px) {
     .text-header {
         font-size: 3vw;
