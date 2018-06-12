@@ -86,15 +86,12 @@ header .header-img {
     .header {
         max-height: 80px;
     }
-
     .header .header-text {
         text-align: right;
     }
-
     .header .header-logo {
         float: left;
     }
-
     .header .header-img {
         max-height: 60px;
         max-width: 60px;
@@ -112,31 +109,25 @@ the header text will align to the right, and content will be spaced out evenly.*
         text-align: left;
         margin: 0 auto 30px;
     }
-
     .header-text {
         text-align: right;
     }
-
     .header,
     .featured-inner {
         display: flex;
     }
-
     .featured-inner {
         margin-top: 30px;
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 0;
     }
-
     .featured-item {
         margin: 20px 20px 20px 0;
     }
-    
     .featured-item:last-child {
         margin-right: 0;
     }
-
     .featured-work .featured-img {
         max-height: 200px;
         max-width: 300px;
@@ -150,11 +141,9 @@ the header text will align to the right, and content will be spaced out evenly.*
     .text-header {
         font-size: 4vw;
     }
-
     .text-item {
         font-size: 2vw;
     }
-
 }
 
 
@@ -174,7 +163,6 @@ the header text will align to the right, and content will be spaced out evenly.*
     .text-header {
         font-size: 3vw;
     }
-
     .text-item {
         font-size: 1vw;
     }
